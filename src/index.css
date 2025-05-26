@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.creater {
+  display: inline-block;           /* so padding works nicely */
+  font-size: 1.25rem;              /* bump up the size */
+  font-weight: 600;                /* semi-bold */
+  color: #63b3ed;                  /* light blue */
+  text-decoration: none;           /* remove default underline */
+  padding: 0.25rem 0.5rem;         /* some breathing room */
+  border-radius: 0.375rem;         /* rounded corners */
+  transition: 
+    color 0.2s ease, 
+    background-color 0.2s ease;    /* smooth hover */
+}
+
+.creater:hover {
+  color: #fff;                     /* white text on hover */
+}
+
+.creater:focus {
+  outline: 2px dashed #4299e1;     /* keyboard-focus ring */
+  outline-offset: 4px;
+}
