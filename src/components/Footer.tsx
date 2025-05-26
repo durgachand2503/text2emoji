@@ -79,7 +79,7 @@ const Footer: React.FC = () => {
 
         <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700">
           <p className="text-sm text-gray-500 dark:text-gray-400 text-center">
-            © {new Date().getFullYear()} Text2Emoji. All rights reserved.<br/> Created by  <a href='https://durgachand2503.github.io/portfolio/' className='creater'>Gorantla Durga Chand</a> 
+            © {new Date().getFullYear()} Text2Emoji. All rights reserved.<br/> Created by  <a href='https://durgachand2503.github.io/portfolio/' className='creater' target="_blank">Gorantla Durga Chand</a> 
           </p>
         </div>
       </div>
